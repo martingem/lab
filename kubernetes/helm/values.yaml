@@ -1,0 +1,9 @@
+replicaCount: 2
+
+image:
+  # -- Overrides the image tag whose default is the chart appVersion
+  tag: "0.15.7"
+
+# -- Pod labels
+podLabels: 
+  hello: world
